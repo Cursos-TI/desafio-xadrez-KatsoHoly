@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int torre, bispo = 0, rainha = 0, cavalo;
+    int torre, bispo = 0, rainha = 0, cavalo = 1;
 
     // //Mover a Torre 5 vezes para cima
     printf("Movimento da Torre:\n");
@@ -23,7 +23,7 @@ int main() {
         rainha++;
     } while (rainha < 8);
 
-    printf("Movimento do Cavalo\n");
+    printf("Movimento do Cavalo: \n");
     while (cavalo--)
     {
         for(int cavalo = 0; cavalo < 2; cavalo++){
@@ -31,8 +31,6 @@ int main() {
         }
             printf("Cima\n"); //Cima 1 vez
     }   
-        
-
 
 
     return 0;
